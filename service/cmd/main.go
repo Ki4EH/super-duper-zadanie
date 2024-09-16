@@ -1,9 +1,9 @@
 package main
 
 import (
-	"git.codenrock.com/avito-testirovanie-na-backend-1270/cnrprod1725744678-team-77391/zadanie-6105/service/config"
-	"git.codenrock.com/avito-testirovanie-na-backend-1270/cnrprod1725744678-team-77391/zadanie-6105/service/internal/api"
-	"git.codenrock.com/avito-testirovanie-na-backend-1270/cnrprod1725744678-team-77391/zadanie-6105/service/internal/db"
+	"github.com/Ki4EH/super-duper-zadanie/service/config"
+	"github.com/Ki4EH/super-duper-zadanie/service/internal/api"
+	"github.com/Ki4EH/super-duper-zadanie/service/internal/db"
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
 	"log"

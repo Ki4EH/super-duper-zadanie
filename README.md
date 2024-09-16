@@ -25,3 +25,21 @@ docker-compose up --build
 
 Необходимые комманды для создания таблиц и данных находятся в файле `service/init.sql`.
 
+# Запуск локально
+1. Склонировать проект.
+```shell
+git clone https://github.com/Ki4EH/super-duper-zadanie.git
+```
+2. Перейти в корневую папку проекта.
+3. При настроить переменные среды в файле `/service/.env`
+```env
+POSTGRES_USERNAME=your_username
+POSTGRES_PASSWORD=your_password
+POSTGRES_HOST=your_host
+POSTGRES_PORT=your_port
+```
+4. Запустить сервер.
+```shell
+cd service
+go run main.go
+```

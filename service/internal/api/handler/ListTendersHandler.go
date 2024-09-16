@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"git.codenrock.com/avito-testirovanie-na-backend-1270/cnrprod1725744678-team-77391/zadanie-6105/service/internal/db/models"
-	"git.codenrock.com/avito-testirovanie-na-backend-1270/cnrprod1725744678-team-77391/zadanie-6105/service/internal/db/repository"
+	"github.com/Ki4EH/super-duper-zadanie/service/internal/db/models"
+	"github.com/Ki4EH/super-duper-zadanie/service/internal/db/repository"
 	"github.com/labstack/echo/v4"
 	"net/http"
 	"strconv"

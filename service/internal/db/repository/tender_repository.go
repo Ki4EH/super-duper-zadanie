@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"git.codenrock.com/avito-testirovanie-na-backend-1270/cnrprod1725744678-team-77391/zadanie-6105/service/internal/db/models"
+	"github.com/Ki4EH/super-duper-zadanie/service/internal/db/models"
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 	"log"

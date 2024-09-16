@@ -1,4 +1,4 @@
-module git.codenrock.com/avito-testirovanie-na-backend-1270/cnrprod1725744678-team-77391/zadanie-6105/service
+module github.com/Ki4EH/super-duper-zadanie/service
 
 go 1.21.0
 
