@@ -11,9 +11,9 @@ git clone https://github.com/Ki4EH/super-duper-zadanie.git
 ```env
 POSTGRES_USERNAME=postgres
 POSTGRES_PASSWORD=postgres
-POSTGRES_HOST=db # изменить на вашу бд при запуске на локально
+POSTGRES_HOST=db # изменить на ваш хост при запуске локально
 POSTGRES_PORT=5432
-POSTGRES_DATABASE=
+POSTGRES_DATABASE=your_db # изменить на вашу бд при запуске локально
 ```
 3. Выполнить команду .
 ```shell
@@ -21,25 +21,7 @@ docker-compose up --build
 ```
 4. После успешного выполнения команды, и сборки сервер доступен по адресу `http://localhost:8080/`
 
-Все необходимые таблицы и данные будут созданы автоматически при первом создании контейнера.
+Все необходимые таблицы будут созданы автоматически при первом создании контейнера.
 
-Необходимые комманды для создания таблиц и данных находятся в файле `service/init.sql`.
+Необходимые комманды для создания таблиц находятся в файле `service/init.sql`.
 
-# Запуск локально
-1. Склонировать проект.
-```shell
-git clone https://github.com/Ki4EH/super-duper-zadanie.git
-```
-2. Перейти в корневую папку проекта.
-3. При настроить переменные среды в файле `/service/.env`
-```env
-POSTGRES_USERNAME=your_username
-POSTGRES_PASSWORD=your_password
-POSTGRES_HOST=your_host
-POSTGRES_PORT=your_port
-```
-4. Запустить сервер.
-```shell
-cd service
-go run main.go
-```
